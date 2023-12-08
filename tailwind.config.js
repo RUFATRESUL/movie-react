@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     container: {
-      center: true,
+      center:true,
     },
     screens: {
       'sm': {'min': '100px', 'max': '767px'},

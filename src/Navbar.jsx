@@ -90,5 +90,3 @@ function Navbar() {
 }
 
 export default Navbar
-// absolute invisible opacity-0 z-50 top-16 left-0 m-5 w-40 p-24 group-hover:block
-// md:invisible lg:invisible xl:invisible 2xl:invisible
