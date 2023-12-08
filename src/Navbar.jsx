@@ -4,6 +4,7 @@ import {GiHamburgerMenu} from 'react-icons/gi'
 import Movie from './assets/images (2).png'
 import {Link} from 'react-router-dom'
 import { FaChevronDown } from "react-icons/fa";
+import MoviakTwo from './assets/img_66.png'
 
 
 function Navbar() {
@@ -29,8 +30,8 @@ function Navbar() {
         </div>
     </div>
     <div className='flex justify-around items-center'>
-        <div className='w-20'>
-            <img src={Movie} alt="" />
+        <div className='w-20 sm:w-36 sm:h-16 sm:pt-2 md:w-36 md:h-16 md:pt-2 lg:h-16 lg:w-36 lg:pt-2 xl:h-16 xl:w-36 xl:pt-2 2xl:h-16 2xl:w-36 2xl:pt-2'>
+            <img src={MoviakTwo} alt="" />
         </div>
         <div className={`${open ? 'sm:opacity-100' : ' sm:opacity-0'} font-bold text-lg sm:fixed sm:flex sm:flex-col sm:justify-start sm:top-0 sm:left-0 sm:w-60 sm:h-screen sm:bg-[#f1f1f1] sm:transition-opacity sm:duration-1000 md:block lg:block xl:block 2xl:block`}>
             <Link className='pl-10 sm:p-3 sm:border-b-2 sm:border-solid sm:border-gray-300 font-medium sm:text-gray-500 sm:text-base' to="/">Home</Link>
